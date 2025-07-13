@@ -1,12 +1,23 @@
-# React + Vite
+# VidaPlus - Sistema de Gestão Hospitalar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como trabalho acadêmico para a Uninter, por Rafael Santana Oliveira (RU: 4311767).
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O SGHSS - VidaPlus é um sistema de gestão hospitalar com foco em front-end, desenvolvido em React + Vite. O sistema simula funcionalidades essenciais para o gerenciamento de pacientes, profissionais de saúde, administração hospitalar e telemedicina. Todos os dados utilizados são fictícios, provenientes de mockdata, com o objetivo de demonstrar as funcionalidades da interface.
 
-## Expanding the ESLint configuration
+## Funcionalidades Principais
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Cadastro e Atendimento de Pacientes:** consultas, exames, prontuários, telemedicina.
+2. **Gestão de Profissionais de Saúde:** médicos, enfermeiros, técnicos, agendas, prescrições.
+3. **Administração Hospitalar:** leitos, relatórios financeiros, suprimentos.
+4. **Telemedicina:** atendimentos e prescrições online, marcação de consultas presenciais e exames.
+
+## Tecnologias Utilizadas
+- React
+- Vite
+- Tailwind CSS
+- Mockdata (fake data)
+
+## Observações
+Este projeto tem fins exclusivamente acadêmicos e não deve ser utilizado em ambientes de produção.
