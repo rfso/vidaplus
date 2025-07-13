@@ -1,0 +1,328 @@
+{
+  "medicos": [
+    {
+      "id": 1,
+      "nome": "Dr. Carlos Eduardo Silva",
+      "crm": "12345-SP",
+      "especialidade": "Cardiologia",
+      "email": "carlos.silva@hospital.com",
+      "telefone": "(11) 99999-1111",
+      "status": "Ativo"
+    },
+    {
+      "id": 2,
+      "nome": "Dra. Ana Paula Santos",
+      "crm": "23456-SP",
+      "especialidade": "Pediatria",
+      "email": "ana.santos@hospital.com",
+      "telefone": "(11) 99999-2222",
+      "status": "Ativo"
+    },
+    {
+      "id": 3,
+      "nome": "Dr. Roberto Mendes",
+      "crm": "34567-SP",
+      "especialidade": "Ortopedia",
+      "email": "roberto.mendes@hospital.com",
+      "telefone": "(11) 99999-3333",
+      "status": "Ativo"
+    },
+    {
+      "id": 4,
+      "nome": "Dra. Fernanda Costa",
+      "crm": "45678-SP",
+      "especialidade": "Neurologia",
+      "email": "fernanda.costa@hospital.com",
+      "telefone": "(11) 99999-4444",
+      "status": "Ativo"
+    }
+  ],
+  "enfermeiros": [
+    {
+      "id": 1,
+      "nome": "Maria José Oliveira",
+      "coren": "123456-SP",
+      "especialidade": "UTI",
+      "email": "maria.oliveira@hospital.com",
+      "telefone": "(11) 99999-5555",
+      "status": "Ativo"
+    },
+    {
+      "id": 2,
+      "nome": "João Pedro Lima",
+      "coren": "234567-SP",
+      "especialidade": "Emergência",
+      "email": "joao.lima@hospital.com",
+      "telefone": "(11) 99999-6666",
+      "status": "Ativo"
+    },
+    {
+      "id": 3,
+      "nome": "Lucia Helena Ferreira",
+      "coren": "345678-SP",
+      "especialidade": "Centro Cirúrgico",
+      "email": "lucia.ferreira@hospital.com",
+      "telefone": "(11) 99999-7777",
+      "status": "Ativo"
+    },
+    {
+      "id": 4,
+      "nome": "Antonio Carlos Souza",
+      "coren": "456789-SP",
+      "especialidade": "Ambulatório",
+      "email": "antonio.souza@hospital.com",
+      "telefone": "(11) 99999-8888",
+      "status": "Ativo"
+    }
+  ],
+  "tecnicos": [
+    {
+      "id": 1,
+      "nome": "Pedro Henrique Alves",
+      "registro": "TEC-001",
+      "especialidade": "Técnico de Enfermagem",
+      "email": "pedro.alves@hospital.com",
+      "telefone": "(11) 99999-9999",
+      "status": "Ativo"
+    },
+    {
+      "id": 2,
+      "nome": "Carla Regina Martins",
+      "registro": "TEC-002",
+      "especialidade": "Técnico de Laboratório",
+      "email": "carla.martins@hospital.com",
+      "telefone": "(11) 99999-0000",
+      "status": "Ativo"
+    },
+    {
+      "id": 3,
+      "nome": "Ricardo Silva Santos",
+      "registro": "TEC-003",
+      "especialidade": "Técnico de Radiologia",
+      "email": "ricardo.santos@hospital.com",
+      "telefone": "(11) 99999-1111",
+      "status": "Ativo"
+    },
+    {
+      "id": 4,
+      "nome": "Beatriz Costa Lima",
+      "registro": "TEC-004",
+      "especialidade": "Técnico de Farmácia",
+      "email": "beatriz.lima@hospital.com",
+      "telefone": "(11) 99999-2222",
+      "status": "Ativo"
+    }
+  ],
+  "agendas": [
+    {
+      "id": 1,
+      "medico": "Dr. Carlos Eduardo Silva",
+      "paciente": "João Silva Santos",
+      "data": "2024-01-15",
+      "hora": "09:00",
+      "tipo": "Consulta",
+      "status": "Agendada"
+    },
+    {
+      "id": 2,
+      "medico": "Dra. Ana Paula Santos",
+      "paciente": "Maria Clara Oliveira",
+      "data": "2024-01-15",
+      "hora": "10:30",
+      "tipo": "Retorno",
+      "status": "Agendada"
+    },
+    {
+      "id": 3,
+      "medico": "Dr. Roberto Mendes",
+      "paciente": "Carlos Alberto Costa",
+      "data": "2024-01-15",
+      "hora": "14:00",
+      "tipo": "Cirurgia",
+      "status": "Confirmada"
+    },
+    {
+      "id": 4,
+      "medico": "Dra. Fernanda Costa",
+      "paciente": "Ana Beatriz Ferreira",
+      "data": "2024-01-16",
+      "hora": "08:00",
+      "tipo": "Consulta",
+      "status": "Agendada"
+    },
+    {
+      "id": 5,
+      "medico": "Dr. Carlos Eduardo Silva",
+      "paciente": "Roberto Mendes Junior",
+      "data": "2024-01-16",
+      "hora": "11:00",
+      "tipo": "Exame",
+      "status": "Agendada"
+    }
+  ],
+  "prescricoes": [
+    {
+      "id": 1,
+      "medico": "Dr. Carlos Eduardo Silva",
+      "paciente": "João Silva Santos",
+      "data": "2024-01-10",
+      "medicamentos": [
+        {
+          "nome": "Losartana 50mg",
+          "posologia": "1 comprimido ao dia",
+          "duracao": "30 dias"
+        },
+        {
+          "nome": "AAS 100mg",
+          "posologia": "1 comprimido ao dia",
+          "duracao": "30 dias"
+        }
+      ],
+      "status": "Ativa"
+    },
+    {
+      "id": 2,
+      "medico": "Dra. Ana Paula Santos",
+      "paciente": "Maria Clara Oliveira",
+      "data": "2024-01-12",
+      "medicamentos": [
+        {
+          "nome": "Paracetamol 750mg",
+          "posologia": "1 comprimido a cada 6 horas",
+          "duracao": "7 dias"
+        }
+      ],
+      "status": "Ativa"
+    },
+    {
+      "id": 3,
+      "medico": "Dr. Roberto Mendes",
+      "paciente": "Carlos Alberto Costa",
+      "data": "2024-01-08",
+      "medicamentos": [
+        {
+          "nome": "Ibuprofeno 600mg",
+          "posologia": "1 comprimido a cada 8 horas",
+          "duracao": "10 dias"
+        },
+        {
+          "nome": "Dipirona 500mg",
+          "posologia": "1 comprimido a cada 6 horas se necessário",
+          "duracao": "10 dias"
+        }
+      ],
+      "status": "Ativa"
+    },
+    {
+      "id": 4,
+      "medico": "Dra. Fernanda Costa",
+      "paciente": "Ana Beatriz Ferreira",
+      "data": "2024-01-05",
+      "medicamentos": [
+        {
+          "nome": "Rivotril 2mg",
+          "posologia": "1 comprimido à noite",
+          "duracao": "15 dias"
+        }
+      ],
+      "status": "Ativa"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "admin",
+      "senha": "admin123",
+      "tipo": "administrador",
+      "nome": "Administrador Geral"
+    },
+    {
+      "id": 2,
+      "username": "carlos",
+      "senha": "medico123",
+      "tipo": "profissional",
+      "nome": "Dr. Carlos Eduardo Silva",
+      "profissao": "Médico"
+    },
+    {
+      "id": 3,
+      "username": "maria",
+      "senha": "paciente123",
+      "tipo": "paciente",
+      "nome": "Maria Clara Oliveira"
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 1,
+      "nome": "Maria Clara Oliveira",
+      "data_nascimento": "1990-05-12",
+      "cpf": "123.456.789-00",
+      "email": "maria.oliveira@email.com",
+      "telefone": "(11) 98888-1234",
+      "historico_clinico": [
+        "Hipertensão arterial",
+        "Alergia a dipirona"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "João Silva Santos",
+      "data_nascimento": "1985-09-23",
+      "cpf": "987.654.321-00",
+      "email": "joao.santos@email.com",
+      "telefone": "(11) 97777-5678",
+      "historico_clinico": [
+        "Diabetes tipo 2"
+      ]
+    }
+  ],
+  "prontuarios": [
+    {
+      "id": 1,
+      "paciente": "Maria Clara Oliveira",
+      "profissional": "Dra. Ana Paula Santos",
+      "data": "2024-01-10",
+      "anotacoes": "Paciente apresentou quadro febril, prescrito paracetamol."
+    },
+    {
+      "id": 2,
+      "paciente": "João Silva Santos",
+      "profissional": "Dr. Carlos Eduardo Silva",
+      "data": "2024-01-12",
+      "anotacoes": "Consulta de rotina, pressão arterial controlada."
+    }
+  ],
+  "internacoes": [
+    {
+      "id": 1,
+      "paciente": "João Silva Santos",
+      "data_entrada": "2024-01-05",
+      "data_saida": null,
+      "motivo": "Cirurgia ortopédica",
+      "status": "Internado"
+    }
+  ],
+  "relatorios": [
+    {
+      "id": 1,
+      "titulo": "Relatório de Internações - Janeiro 2024",
+      "descricao": "Resumo das internações realizadas no mês de janeiro de 2024.",
+      "criado_em": "2024-02-01"
+    }
+  ],
+  "notificacoes": [
+    {
+      "id": 1,
+      "usuario": "maria",
+      "mensagem": "Consulta agendada para 15/01/2024 às 10:30 com Dra. Ana Paula Santos.",
+      "lida": false
+    },
+    {
+      "id": 2,
+      "usuario": "carlos",
+      "mensagem": "Nova prescrição emitida para o paciente João Silva Santos.",
+      "lida": false
+    }
+  ]
+} 
