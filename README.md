@@ -33,4 +33,5 @@ O SGHSS - VidaPlus é um sistema de gestão hospitalar com foco em front-end, de
 - Para rodar servidor local digite npm run dev no terminal e acesse o endereço local fornecido
 
 ## Observações
-Este projeto tem fins exclusivamente acadêmicos e não deve ser utilizado em ambientes de produção.
+- Este projeto tem fins exclusivamente acadêmicos e não deve ser utilizado em ambientes de produção
+- Optei por nomear os componentes e manter os comentários em Português.
